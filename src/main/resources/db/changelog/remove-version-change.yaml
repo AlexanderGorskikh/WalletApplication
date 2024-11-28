@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: developer
+      changes:
+        - dropColumn:
+            columnName: version
+            tableName: wallet
